@@ -1,16 +1,16 @@
 const fs = require("fs").promises
-// fs.readFile("./sample.txt","utf-8",function(data){
-//     console.log(data)
-// })
+fs.readFile("./sample.txt","utf-8",function(data){
+    console.log(data)
+})
 
-// fs.writeFile("write.txt","hey bhaskar writing file read",function(data)
-// {
-//     console.log(data)
-// })
+fs.writeFile("write.txt","hey bhaskar writing file read",function(data)
+{
+    console.log(data)
+})
 
-// fs.writeFile("new","hiiiiiiiiiiiiiiii").then(()=> console.log("done"))
+fs.writeFile("new","hiiiiiiiiiiiiiiii").then(()=> console.log("done"))
 
-// fs.writeFile("test","iam testing").then(()=>console.log("dones"))
+fs.writeFile("test","iam testing").then(()=>console.log("dones"))
 
 
 async function read(){
