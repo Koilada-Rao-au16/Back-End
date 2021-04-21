@@ -1,0 +1,15 @@
+{
+  "name": "routing_module",
+  "version": "1.0.0",
+  "description": "exporting,live coding , module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhaskar Koilada",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1"
+  }
+}
